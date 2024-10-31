@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <h1 class="display-4 text-center mb-4">Lista de series de television</h1>
+  <div class="col-10 mx-auto">
+    <table class="table table-bordered table-striped table-hover">
+      <thead class="table-light">
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Channel</th>
+          <th scope="col">Seasons</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let c of series">
+          <td>{{c.id}}</td>
+          <td>{{c.name}}</td>
+          <td>{{c.channel}}</td>
+          <td>{{c.seasons}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+.container-fluid {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .table {
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+    width: 100%;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table thead th {
+    font-weight: bold;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
