@@ -1,7 +1,7 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, waitForAsync, inject } from '@angular/core/testing';
-import { SerieService } from './serie.service';
+import { SerieService } from './conferencia.service';
 
 describe('Service: Serie', () => {
   beforeEach(() => {
